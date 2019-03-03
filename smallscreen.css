@@ -1,0 +1,116 @@
+@media screen and (max-width: 800px) {
+  
+body {
+  background-image: url("./images/background-flowers.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Calibri;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+}
+
+#pastimes {
+  margin-top: 28px;
+  align: center;
+}
+
+#middle {
+ width: 60%;
+ display: inline-block;
+ margin: 10 auto;
+}
+
+section {
+  background-color: rgba(104,143,189, 0.8);
+  width: 700px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#intro {
+  color: white;
+  font-size: 16px;
+}
+
+.intro-2 {
+  background: rgba(104,143,189, 0.8);
+  font-size: 16px;
+  color: white;
+  margin-top: 13px;
+  margin-bottom: 6px;
+  width: 700px;
+}
+
+.intro-2 img {
+  align: center;
+  margin: 40px 35px 30px 33px;
+  width: 380px;
+  height: 250;
+}
+
+.grid-container1 {
+  width: 70vw;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 6px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.grid-container1 img {
+    border: 1px darkblue;
+    height: 35vh;
+    width: 22vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-gap: 7px;
+  margin: 0 auto;
+  color: white;
+  align: center;
+}
+
+.grid-container2 p img {
+    border: 1px darkblue;
+    height: 38vh;
+    width: 22vw;
+    display: block;
+    margin: 0 auto;
+    align: center;
+}
+
+aside {
+  display: none;
+}
+
+footer {
+  background: rgba(104,143,189, 0.8);
+  color: white;
+  font-size: 13px;
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+}

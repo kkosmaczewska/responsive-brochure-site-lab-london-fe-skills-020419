@@ -1,0 +1,125 @@
+@media screen and (min-width: 1200px) {
+  
+body {
+  background-image: url("./images/background-flowers.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Calibri;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+#pastimes {
+  margin-top: 20px;
+}
+
+#middle {
+ width: 60%;
+ display: inline-block;
+ margin: 0 auto;
+}
+
+section {
+  background-color: rgba(104,143,189, 0.8);
+  width: 1200px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#intro {
+  color: white;
+  font-size: 22px;
+}
+
+.intro-2 {
+  background: rgba(104,143,189, 0.8);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 1200px;
+}
+
+.intro-2 img {
+  float: left;
+  left: 50px;
+  margin: 0 70px 20px 70px;
+  width: 410px;
+}
+
+.intro-2 p {
+  text-align: center;
+}
+
+#iframe {
+  margin-right: -90px;
+}
+
+.grid-container1 {
+  width: 70vw;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.grid-container1 img {
+    border: 1px darkblue;
+    height: 35vh;
+    width: 23vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-container2 {
+  width: 50vw;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 0 0 40px;
+  color: white;
+  float: left;
+  clear: both;
+}
+
+.grid-container2 p img {
+    border: 1px darkblue;
+    height: 35vh;
+    width: 20vw;
+    display: block;
+    margin: 10px auto;
+}
+
+aside {
+  float: right;
+  width: 20vw;
+  margin: 55px;
+}
+
+footer {
+  background: rgba(104,143,189, 0.8);
+  color: white;
+  font-size: 20px;
+  width: 1200px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+}
