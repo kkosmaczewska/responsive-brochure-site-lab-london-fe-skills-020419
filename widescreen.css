@@ -60,7 +60,11 @@ section {
   float: left;
   left: 50px;
   margin: 0 70px 20px 70px;
+<<<<<<< HEAD
   width: 410px;
+=======
+  width: 400px;
+>>>>>>> 4a2304687a0c0be9b4e1e95c7495630df4536c3e
 }
 
 .intro-2 p {
@@ -121,5 +125,4 @@ footer {
   display: block;
   margin: 20px auto;
   text-align: center;
-}
 }
